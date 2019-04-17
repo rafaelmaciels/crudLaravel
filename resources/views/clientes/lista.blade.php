@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">Clientes
-                    <a class="pull-right" href="{{ url('/Clientes/novocliente') }}">Novo Cliente</a>
+                    <a class="pull-right" href="{{ url('/clientes/novo') }}">Novo Cliente</a>
                 </div>
 
                 <div class="card-body">

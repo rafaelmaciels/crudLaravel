@@ -22,9 +22,9 @@ Route::get('/', 'HomeController@index')->name('home');
 
 
 // Clientes Controllers Routes
-Route::get('/clientes', 'ClientesController@index')->name('home');
-Route::get('/clientes/novo', 'ClientesController@novo')->name('home');
-
+Route::get('clientes', 'ClientesController@index')->name('home');
+Route::get('clientes/novo', 'ClientesController@novo')->name('home');
+Route::post('clientes/salvar', 'ClientesController@salvar')->name('home');
 // A Rota vai buscar o controller e definir como Index
 Route::get('/usuarios', 'UsuariosController@index');
 Auth::routes();
